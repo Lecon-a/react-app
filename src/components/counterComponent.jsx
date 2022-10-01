@@ -35,13 +35,13 @@ class Counter extends Component {
     }
 
     getBadgeClass() {
-        let classes = "badge mb-1 bg-";
+        let classes = "badge bg-";
         classes += this.state.value === 0 ? 'warning' : 'primary';
         return classes;
     } 
 
     getMaginClass(m) {
-        let margin = ` m-${m} mb-0`;
+        let margin = ` m-${m}`;
         return margin;
     }
 
